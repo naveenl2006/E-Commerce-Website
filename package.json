@@ -1,0 +1,14 @@
+{
+  "name": "mens-sportswear-ecommerce",
+  "version": "1.0.0",
+  "description": "Men's Sportswear E-commerce Platform",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
